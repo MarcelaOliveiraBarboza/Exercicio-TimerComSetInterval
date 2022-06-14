@@ -22,10 +22,10 @@ body{
 
 .container{
     max-width: 640px;
-    margin: 50px auto; /*conteudo centralizado*/
+    margin: 50px auto;
     background: #fff;
     padding: 20px;
-    border-radius: 10px; /*arredonda as bordas*/
+    border-radius: 10px;
 }
 
 form input, form label, form button{
@@ -42,7 +42,7 @@ form input{
 
 form input:focus{
     outline: 1px solid var(--primary-color);
-} /*cor ao redor da borda do input quando clicar*/
+}
 
 form button{
     border: none;
@@ -51,12 +51,12 @@ form button{
     font-size: 18px;
     font-weight: 700;
     height: 50px;
-    cursor: pointer; /*mãozinha quando fica encima do botão*/
+    cursor: pointer; 
     margin-top: 30px;
 }
 
 form button:hover{
-    background: var(--primary-color-darker); /*muda de cor quando o mouse passa por cima*/
+    background: var(--primary-color-darker); 
 }
 
 .relogio{
